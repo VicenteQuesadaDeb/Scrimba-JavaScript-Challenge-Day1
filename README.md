@@ -2,6 +2,13 @@
 
 In this challenge, you'll create a border of asterisk (*) characters around an array. The array methods you can use to solve it are push(), unshift(), and concat().
 
+## Run it
+
+To try and review this challenge, download it, open intex.html and open the project folder with VisualStudioCode (or your IDE of prefference).
+You can modify the main.js file which contains the solution and the test provided.
+
+Thanks Dylan Israel and Per Harald for creating this awesome challenges and tutorials!!
+
 ## Supporting Scrimba
 
 Since 2017, we have created over 20 free courses on Scrimba, and we're going to
