@@ -1,20 +1,22 @@
 function addBorder(array) {
     //  write code here.
     const row = arrayAsterisk(array[0])
-    var result = []
-    result.push(row)
+    let result = []
     result.push('*' + array[0] + '*')
     result.push('*' + array[1] + '*')
     result.push(row)
+    result.unshift(row)
     return result
 
 }
 
+//Aditional function to create top and bottom asterisk rows.
 function arrayAsterisk(element) {
-    var result = []
-    for (var i = 0; i < element.length + 2; i++) {
+    let result = []
+    for (let i = 0; i < element.length + 2; i++) {
         result.push('*');
     }
+    //use join('') (without space bettween apostrophe) to remove comas on the array. 
     return result.join('');
 }
 
